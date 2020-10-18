@@ -29,7 +29,7 @@ async function login(email, password){
 };
 
 async function addFirstToCart(){
-    const product = Selector(".ajax_block_product").find(".left-block");
+    const product = Selector(".ajax_block_product").find(".right-block").find(".product-name");
     const addToCartBtn = Selector("#add_to_cart").find("button");
     const proceed = Selector("#layer_cart").find("[title='Proceed to checkout']");
 

@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "testcafe chrome tests/",
+    "test": "testcafe chrome:headless tests/ -s takeOnFails=true",
     "report": "datetime=$(date \"+%s\") && testcafe chrome tests/ --reporter html:./archives/manual+$datetime.html"
   },
   "keywords": [],
