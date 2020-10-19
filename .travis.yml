@@ -2,4 +2,4 @@ language: node_js
 node_js:
   - node
 after_script:
-  - ./push.sh
+  - "chmod +x push.sh; ./push.sh"
