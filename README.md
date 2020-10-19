@@ -1,4 +1,5 @@
-# Simple TestCafe pipeline
+# Simple TestCafe pipeline 
+[![Build Status](https://travis-ci.org/avarugh1/testcafedemo.svg?branch=master)](https://travis-ci.org/avarugh1/testcafedemo)
 
 1. Couple of simple end to end tests
 2. Build and deploys build using jenkins on commit to master
