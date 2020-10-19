@@ -12,7 +12,7 @@ commit_website_files() {
 
 upload_files() {
   git remote origin https://${GH_TOKEN}@github.com/avarugh1/testcafereporthandler.git > /dev/null 2>&1
-  git push origin master
+  git push --quiet --set-upstream origin master
 }
 
 setup_git
