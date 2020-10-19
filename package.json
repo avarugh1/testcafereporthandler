@@ -10,7 +10,7 @@
   "devDependencies": {},
   "scripts": {
     "report": "testcafe chrome:headless tests/ -s takeOnFails=true",
-    "test": "datetime=$(date \"+%s\") && testcafe chrome tests/ --reporter html:./archives/manual+$datetime.html"
+    "test": "datetime=$(date \"+%s\") && testcafe chrome:headless tests/ --reporter html:./archives/manual+$datetime.html"
   },
   "keywords": [],
   "author": "Anson Varughese",
