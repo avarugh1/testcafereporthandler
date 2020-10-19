@@ -37,7 +37,7 @@ async function addFirstToCart(){
     .click(product)
     .click(addToCartBtn)
     .click(proceed);
-}
+};
 
 // Tests
 test("Search for 't-shirt'" , async t => {
