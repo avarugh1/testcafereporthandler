@@ -116,5 +116,5 @@ dist
 .pnp.*
 
 # project specific
-archives/
+# archives/
 screenshots/
