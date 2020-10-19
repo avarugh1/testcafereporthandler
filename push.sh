@@ -13,7 +13,8 @@ commit_website_files() {
 
 upload_files() {
   git remote set-url origin https://${GH_TOKEN}@github.com/avarugh1/testcafereporthandler.git > /dev/null 2>&1
-  git push --quiet origin reports
+  git push origin reports
+
 }
 
 setup_git
