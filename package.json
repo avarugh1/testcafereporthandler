@@ -9,8 +9,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "testcafe chrome:headless tests/ -s takeOnFails=true",
-    "report": "datetime=$(date \"+%s\") && testcafe chrome tests/ --reporter html:./archives/manual+$datetime.html"
+    "report": "testcafe chrome:headless tests/ -s takeOnFails=true",
+    "test": "datetime=$(date \"+%s\") && testcafe chrome tests/ --reporter html:./archives/manual+$datetime.html"
   },
   "keywords": [],
   "author": "Anson Varughese",
