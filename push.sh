@@ -6,13 +6,14 @@ setup_git() {
 }
 
 commit_website_files() {
+  git checkout -b reports
   git add archives/*.html
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
 }
 
 upload_files() {
   git remote set-url origin https://${GH_TOKEN}@github.com/avarugh1/testcafereporthandler.git > /dev/null 2>&1
-  git push --quiet origin master
+  git push --quiet origin reports
 }
 
 setup_git
